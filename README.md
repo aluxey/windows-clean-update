@@ -68,38 +68,8 @@ Supprimer :
 
 ---
 
-## 📋 Prérequis communs
-
-* Windows 10 / 11
-* PowerShell 5.1+ (recommandé : **PowerShell 7**)
-* Exécution en tant qu’administrateur
-* Autoriser les scripts :
-
-  ```powershell
-  Set-ExecutionPolicy Bypass -Scope CurrentUser -Force
-  ```
-* (Pour le deduper) activer les **chemins longs** :
-
-  ```powershell
-  reg add HKLM\SYSTEM\CurrentControlSet\Control\FileSystem /v LongPathsEnabled /t REG_DWORD /d 1 /f
-  ```
-
----
-
-## 🤝 Contribuer
-
-* Fork du projet
-* Créez une branche `feature/x`
-* Committez vos changements
-* Ouvrez une Pull Request
-* Les issues sont les bienvenues
-
----
-
 ## 📝 Licence
 
 MIT — scripts libres d’utilisation, sans garantie.
 
 ---
-
-👉 Veux-tu que je te génère aussi la **structure de repo GitHub complète** (arborescence avec `scripts/`, `docs/`, et ce README combiné en racine), ou tu préfères juste coller ce README directement à côté de tes `.ps1` ?
